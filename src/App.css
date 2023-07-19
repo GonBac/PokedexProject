@@ -1,0 +1,72 @@
+.imgcarga {
+  position: absolute;
+  top: 175px;
+  right: -79px;
+  width: 550px;
+  height: 400px;
+}
+.body {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  border: 1px solid #e0e0e0;
+}
+
+.headergral {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.logo {
+  display: flex;
+  gap: 15px;
+}
+.filtro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  gap: 2px;
+  cursor: pointer;
+}
+.buscar {
+  background-image: url("/src/assets/img/lupita.svg");
+  background-repeat: no-repeat;
+  background-position: 40% 50%;
+}
+
+.buscar:focus {
+  background-image: none;
+}
+
+.textover {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+main {
+  width: 390px;
+}
+.botones {
+  display: flex;
+  gap: 10px;
+}
+.botonmas {
+  width: 30px;
+  height: 35px;
+}
+.botonmenos {
+  width: 30px;
+  height: 35px;
+}

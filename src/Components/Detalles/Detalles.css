@@ -1,0 +1,209 @@
+.imgcargadet {
+  position: absolute;
+  top: 175px;
+  right: -71px;
+  width: 550px;
+  height: 400px;
+}
+.tarjetadet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+  height: 100vh;
+  border-radius: 15px;
+}
+.headdet {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 30px;
+  z-index: 1;
+  color: #ffffff;
+}
+.nombredet {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.numerodet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.bgpoke {
+  color: white;
+  width: 250px;
+  height: 250px;
+  top: 9px;
+  right: 10px;
+  position: absolute;
+}
+.imgdet {
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+  position: relative;
+  top: -50px;
+}
+.botonesdet {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+  top: 195px;
+}
+
+.maindet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statsdet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 510px;
+  width: 98%;
+  top: -80px;
+  padding-top: 30px;
+  border-radius: 15px;
+}
+.tipodet {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.tipodet span {
+  display: flex;
+  padding: 2px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 15px;
+  background: var(--grayscale-medium, #666);
+}
+
+.infodet {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+.pesodet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.alturadet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.skillsdet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.datosdet {
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.descripciondet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  gap: 80px;
+}
+.flavordet {
+  display: flex;
+  text-align: justify;
+  padding: 20px 15px 0 15px;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#stats {
+  width: 80%;
+  font-size: 0.8rem;
+  gap: 0.6rem;
+  padding-top: 20px;
+}
+
+.estadisticas {
+  display: flex;
+}
+
+.statnom,
+.statnum {
+  width: 13%;
+}
+
+.statnom {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 0.6rem;
+  transition: color 0.5s ease-in-out;
+}
+
+.statnum {
+  border-left: 1px solid gray;
+  text-align: right;
+}
+
+.statbar {
+  width: 76%;
+  display: flex;
+  align-items: center;
+  padding-left: 0.6rem;
+}
+
+.bartotal {
+  display: flex;
+  width: 100%;
+  height: 0.3rem;
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+}
+
+.barvariable {
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+}
+
+.texto {
+  transition: color 1s ease-in-out;
+}
