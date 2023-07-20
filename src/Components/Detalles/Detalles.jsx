@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Detalles.css";
 import { useNavigate, useParams } from "react-router-dom";
 import PokeballLogo from "./pokeball-logo.svg";
+import ImagenCarga from "/src/assets/img/Loading.gif";
 
 const Detalles = () => {
   const { pokeid } = useParams();
@@ -47,11 +48,7 @@ const Detalles = () => {
 
   if (!pokeDet) {
     return (
-      <img
-        className="imgcargadet"
-        src="./src/assets/img/Loading.gif"
-        alt="pokeball cargando"
-      />
+      <img className="imgcargadet" src={ImagenCarga} alt="pokeball cargando" />
     );
   }
 

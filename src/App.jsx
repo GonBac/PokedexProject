@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Pokemon from "./Components/Pokemon/Pokemon";
+import ImagenCarga from "/src/assets/img/Loading.gif";
+import PokeballLogo from "/src/assets/img/pokeball-logo.svg";
+import flechamenos from "/src/assets/img/pokemon_minus.png";
+import flechamas from "/src/assets/img/pokemon_plus.png";
 
 import "./index.css";
 import "./App.css";
@@ -86,11 +90,7 @@ const App = () => {
 
   if (pokemonData.length === 0) {
     return (
-      <img
-        className="imgcarga"
-        src="./src/assets/img/Loading.gif"
-        alt="pokeball cargando"
-      />
+      <img className="imgcarga" src={ImagenCarga} alt="pokeball cargando" />
     );
   }
 
@@ -99,11 +99,7 @@ const App = () => {
       <header className="headergral">
         <section className="head">
           <div className="logo">
-            <img
-              className="pokelogo"
-              src="./src/assets/img/pokeball-logo.svg"
-              alt="Pokeball logo"
-            />
+            <img className="pokelogo" src={PokeballLogo} alt="Pokeball logo" />
             <h1>Pokédex</h1>
           </div>
           <div
@@ -115,7 +111,7 @@ const App = () => {
             }}
           >
             <img
-              src="./src/assets/img/pokemon_minus.png"
+              src={flechamenos}
               className="botonmenos"
               onClick={cargarPokemonAnteriores}
               style={{
@@ -124,7 +120,7 @@ const App = () => {
             />
             <img
               className="botonmas"
-              src="./src/assets/img/pokemon_plus.png"
+              src={flechamas}
               onClick={cargarMasPokemon}
             />
           </div>
