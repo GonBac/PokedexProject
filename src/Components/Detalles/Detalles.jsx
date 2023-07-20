@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Detalles.css";
 import { useNavigate, useParams } from "react-router-dom";
+import PokeballLogo from "./pokeball-logo.svg";
 
 const Detalles = () => {
   const { pokeid } = useParams();
@@ -138,7 +139,7 @@ const Detalles = () => {
         <div className="bgpoke">
           <img
             style={{ width: "100%", height: "100%", opacity: "10%" }}
-            src="src/Components/Detalles/pokeball-logo.svg"
+            src={PokeballLogo}
             alt="pokeball"
           />
         </div>
