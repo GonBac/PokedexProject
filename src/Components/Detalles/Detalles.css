@@ -100,7 +100,7 @@
 
 .infodet {
   display: flex;
-  padding-top: 20px;
+  padding-top: 30px;
   gap: 20px;
 }
 .pesodet {
@@ -144,7 +144,7 @@
 .flavordet {
   display: flex;
   text-align: justify;
-  padding: 20px 15px 0 15px;
+  padding: 30px 15px 0 15px;
 
   font-family: Poppins;
   font-size: 14px;
@@ -157,7 +157,7 @@
   width: 80%;
   font-size: 0.8rem;
   gap: 0.6rem;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .estadisticas {

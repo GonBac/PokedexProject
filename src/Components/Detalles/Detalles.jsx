@@ -236,7 +236,7 @@ const Detalles = () => {
           </div>
           <h2
             className="texto"
-            style={{ color: color, fontSize: "16px", paddingTop: "20px" }}
+            style={{ color: color, fontSize: "16px", paddingTop: "30px" }}
           >
             Base Stats
           </h2>
