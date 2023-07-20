@@ -51,7 +51,7 @@ const App = () => {
   };
 
   const cargarMasPokemon = () => {
-    setOffset((prevOffset) => prevOffset + 21); // Aumentar el offset en 21 para cargar los siguientes 21 Pokémon
+    setOffset((prevOffset) => prevOffset + 21);
   };
 
   const cargarPokemonAnteriores = () => {

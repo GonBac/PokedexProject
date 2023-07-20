@@ -1,12 +1,10 @@
 .imgcarga {
-  position: absolute;
-  top: 175px;
-  right: -79px;
   width: 550px;
   height: 400px;
 }
 .body {
   width: 390px;
+  height: 895px;
   display: flex;
   flex-direction: column;
   align-items: center;

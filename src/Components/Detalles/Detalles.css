@@ -1,7 +1,4 @@
 .imgcargadet {
-  position: absolute;
-  top: 175px;
-  right: -71px;
   width: 550px;
   height: 400px;
 }
@@ -10,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   width: 390px;
-  height: 100vh;
+  height: 845px;
   border-radius: 15px;
 }
 .headdet {
@@ -47,8 +44,8 @@
   color: white;
   width: 250px;
   height: 250px;
-  top: 9px;
-  right: 10px;
+  top: 75px;
+  right: 752px;
   position: absolute;
 }
 .imgdet {
